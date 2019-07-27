@@ -7,7 +7,7 @@ Make sure you are ready to scrape:
 1. Download Firefox (our web driver)
 2. Install relevant packages (pip/pip3 install…):
 
-   * webdriver 
+   * selenium 
    * sys 
    * unittest 
    * time 
@@ -18,7 +18,7 @@ Make sure you are ready to scrape:
    * xlsxwriter
    * csv
 
-In order to install webdriver package, you need to download selenium first:
+In order to install selenium package, do the following steps first:
   * Go to https://www.seleniumhq.org/download/ and download the latest version of Mozilla GeckoDriver.
   * Copy 'geckodriver' to the folder with your python code.
 
