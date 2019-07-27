@@ -18,7 +18,7 @@ Make sure you are ready to scrape:
    * xlsxwriter
    * csv
 
-In order to install webdriver package, you need to install selenium:
+In order to install webdriver package, you need to download selenium first:
   * Go to https://www.seleniumhq.org/download/ and download the latest version of Mozilla GeckoDriver.
   * Copy 'geckodriver' to the folder with your python code.
 
