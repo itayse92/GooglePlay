@@ -3,9 +3,9 @@
 #### Extract/scrape details of every app in search results pages of google play store. The output is a csv file with the following information for each app: app name, URL, category, company, ratings, installs.
 
 ## INSTALLATION
-make sure you are ready to scrape:
-1. download Firefox (our web driver)
-2. install relevant packages (pip/pip3 install…):
+Make sure you are ready to scrape:
+1. Download Firefox (our web driver)
+2. Install relevant packages (pip/pip3 install…):
 
    * webdriver 
    * sys 
@@ -18,9 +18,9 @@ make sure you are ready to scrape:
    * xlsxwriter
    * csv
 
-in order to install webdriver package, you need to install selenium:
-  * go to https://www.seleniumhq.org/download/ and download the latest version of Mozilla GeckoDriver.
-  * copy 'geckodriver' to the folder with your python code.
+In order to install webdriver package, you need to install selenium:
+  * Go to https://www.seleniumhq.org/download/ and download the latest version of Mozilla GeckoDriver.
+  * Copy 'geckodriver' to the folder with your python code.
 
 ## ADJUSTMENTS
 
@@ -34,7 +34,7 @@ urls = {
     'Hotels': '/search?q=hotel%20booking&c=apps'
 }
  ```
-And paste them in "urls" dictionary.
+and paste them in "urls" dictionary.
  
 ## AFTER RUN
 Open "apps_output.csv" (in the same folder of the .py file) and remove black rows:
